@@ -76,4 +76,48 @@ ul{
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+  
+}
+.cordao {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  
+}
+#quebra{
+  margin-top: -5px;
+  width: 110px;
+ 
+ 
+}
+
+@media (min-width: 500px){
+  main{
+
+  width: 358px;
+  height: 540px;
+  
+  
+
+  }
+  body{
+    background: #121214;
+  }
+  .cordao{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  margin-bottom: 220px;
+  
+   
+
+  }
+  .content{
+    margin-top: -100px;
+  }
+
 }
